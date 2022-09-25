@@ -1,4 +1,8 @@
+import { Counter } from "react";
+
+
 export const App = () => {
+  
   return (
     <div
       style={{
@@ -11,6 +15,7 @@ export const App = () => {
       }}
     >
       React homework template
+      <Counter  />
     </div>
   );
 };
